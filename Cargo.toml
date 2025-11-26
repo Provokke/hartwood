@@ -1,0 +1,24 @@
+[package]
+name = "hartwood"
+version = "0.1.0"
+edition = "2021"
+description = "A from-scratch RV64IMAC system emulator (interpreter, MMU, CLINT, PLIC, UART)"
+license = "MIT"
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"
+
+[[bench]]
+name = "mips"
+harness = false
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+debug = false
+
+[profile.test]
+opt-level = 2
