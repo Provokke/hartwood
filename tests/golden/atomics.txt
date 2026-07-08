@@ -1,0 +1,1 @@
+fetch_add total=3000 word=0x0000000000000031 cas1 prev=42 cas2 prev=7 final=7
