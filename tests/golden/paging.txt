@@ -1,0 +1,7 @@
+M-mode: Sv39 enabled, satp=0x8000000000080004
+user: hello from U-mode with Sv39 enabled
+user: wrote through virtual alias 0x40000000
+user value: 0x206e657474697277
+M-mode caught trap: mcause=13 mtval=0x0000000040001000 from priv=0
+shared page (physical view): written by U-mode via VA 0x40000000
+syscalls handled: 3
