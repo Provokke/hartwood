@@ -1,0 +1,4 @@
+primes below 20000: 2262 (sum 21171191)
+first: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 
+last:  19973 19979 19991 19993 19997 
+trial-division cross-check OK
