@@ -1,0 +1,6 @@
+tick 1 at mtime=10004
+tick 2 at mtime=20008
+tick 3 at mtime=30012
+tick 4 at mtime=40016
+tick 5 at mtime=50020
+timer demo done: 5 interrupts, cycle=501432 instret=2303
